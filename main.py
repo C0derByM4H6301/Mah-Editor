@@ -17,5 +17,5 @@ def t():
     ctime = time.strftime('%H:%M:%S', current_time)
     return '[' + ctime + ']'
 user = os.getlogin( )
-f.write(f"\n{t()} , Edited for user: {user}\n")
+f.write(f"\nMah-Editor log: \n time: {t()} , Edited for user: {user}\n")
 f.close()
